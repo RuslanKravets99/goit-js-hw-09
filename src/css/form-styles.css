@@ -31,12 +31,22 @@
   border: 1px solid #808080;
   border-radius: 4px;
   resize: none;
-  font-family: inherit;
   width: 360px;
   height: 40px;
   margin-top: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: none;
 }
 
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border: 1px solid #000;
+}
 
 .feedback-form textarea {
   min-height: 120px; 
